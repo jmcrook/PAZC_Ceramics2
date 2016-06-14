@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--@TEST: arch16n generation and substitution - Inferred labels-->
+<module>
+  <Tabgroup>
+    <Tab>
+      <Dummy t="input" f="id"/> <!--f="id" is required to prevent errors-->
+
+      <!--Squares brackets shouldn't screw things up-->
+      <Region_Villiage t="dropdown">
+        <opts>
+          <opt>[locality], [state or province], [country]</opt>
+          <opt>Burgos, Ilocos Sur, Philippines</opt>
+        </opts>
+      </Region_Villiage>
+
+      <!--Dashes should be okay-->
+      <Language_Content_ISO639-3 t="dropdown">
+        <opts>
+          <opt>mis - Uncoded languages</opt>
+          <opt>und - Undetermined languages</opt>
+          <opt>mul - Multiple languages</opt>
+          <opt>zxx - No linguistic content</opt>
+          <opt>[3-letter ISO639-3 code] - [Ethnologue name of language]</opt>
+          <opt>ilo - Ilocano</opt>
+          <opt>eng - English</opt>
+        </opts>
+      </Language_Content_ISO639-3>
+
+      <!--Accents-->
+      <Café_Coffee t="input"/>
+      <Yay_Accents_éòá t="input"/>
+      <Language_Content_ISO639-4 t="dropdown">
+        <opts>
+          <opt>Café Coffee</opt>
+        </opts>
+      </Language_Content_ISO639-4>
+
+      <!--Full Stops-->
+      <Menopause_Jokes_Are_Not_Funny._Period. t="input"/>
+    </Tab>
+  </Tabgroup>
+</module>

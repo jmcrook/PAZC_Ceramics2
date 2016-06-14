@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--@TEST: p attribute-->
+<module>
+  <Tabgroup>
+    <Tab>
+      <Dummy t="input" f="id"/> <!--f="id" is required to prevent errors-->
+
+      <Picture t="picture">
+        <opts>
+          <opt p="limewire_experience_1.avi.wmv.exe.jpg">test opt1</opt>
+          <opt p="limewire_experience_2.avi.wmv.exe.jpg">test opt2</opt>
+          <opt p="limewire_experience_3.avi.wmv.exe.jpg">test opt3</opt>
+          <opt p="limewire_experience_4.avi.wmv.exe.jpg">test opt4</opt>
+          <opt                                          >test opt5</opt>
+          <opt p="writing tests is boring.png"          >test opt9001</opt>
+        </opts>
+      </Picture>
+    </Tab>
+  </Tabgroup>
+</module>

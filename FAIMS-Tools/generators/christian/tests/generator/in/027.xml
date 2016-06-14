@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--@TEST: Reserved tags - desc - Simple GUI elements-->
+<module>
+  <Tabgroup>
+    <Tab>
+      <Dummy t="input" f="id"/> <!--f="id" is required to prevent errors-->
+
+      <Input       t="input">
+        <desc>Desc 1</desc>
+      </Input>
+      <Audio       t="audio">
+        <desc>Desc 2</desc>
+      </Audio>
+      <File        t="file">
+        <desc>Desc 4</desc>
+      </File>
+      <Video       t="video">
+        <desc>Desc 5</desc>
+      </Video>
+    </Tab>
+  </Tabgroup>
+</module>

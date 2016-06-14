@@ -1,0 +1,347 @@
+digraph {
+	graph [
+		rankdir="LR"
+		fontname="Roboto"
+		splines=ortho
+		outputorder="nodesfirst"
+		ranksep=2
+	];
+	node [
+		fontsize="12"
+		shape=plaintext
+		fontname="Roboto"
+		margin=0
+		shape=none
+	];
+
+	subgraph cluster_b512d97e7c {
+		label="User"
+		bgcolor="lightblue"
+
+		_b512d97e7c [label="" fixedsize=shape width=0 height=0]
+
+		subgraph cluster_ab74b86763 {
+			label=""
+			bgcolor="white"
+			ordering="in"
+
+			struct_Label_ab74b86763 [
+			label=<
+				<TABLE BORDER="1" CELLBORDER="3" CELLSPACING="0" CELLPADDING="5" WIDTH="150" HEIGHT="10">
+					<TR>
+						<TD SIDES="b" ALIGN="TEXT">User</TD>
+					</TR>
+				</TABLE>
+			>];
+
+			struct_Elems_639e8cc20c [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_639e8cc20c"><IMG SRC="User_User_Select_User.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_2d3c307add [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_2d3c307add"><IMG SRC="User_User_Login.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+		}
+
+	}
+
+	subgraph cluster_32d7e82082 {
+		label="Control"
+		bgcolor="lightblue"
+
+		_32d7e82082 [label="" fixedsize=shape width=0 height=0]
+
+		subgraph cluster_0b4b1a2af6 {
+			label=""
+			bgcolor="white"
+			ordering="in"
+
+			struct_Label_0b4b1a2af6 [
+			label=<
+				<TABLE BORDER="1" CELLBORDER="3" CELLSPACING="0" CELLPADDING="5" WIDTH="150" HEIGHT="10">
+					<TR>
+						<TD SIDES="b" ALIGN="TEXT">Main</TD>
+						<TD SIDES="b" BORDER="1">...</TD>
+					</TR>
+				</TABLE>
+			>];
+
+			struct_Elems_48df2fd573 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_48df2fd573"><IMG SRC="Control_Main_Record_Interview.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_0cd9d19436 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_0cd9d19436"><IMG SRC="Control_Main_GPS_Diagnostics.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+		}
+
+		subgraph cluster_b5348d5536 {
+			label=""
+			bgcolor="white"
+			ordering="in"
+
+			struct_Label_b5348d5536 [
+			label=<
+				<TABLE BORDER="1" CELLBORDER="3" CELLSPACING="0" CELLPADDING="5" WIDTH="150" HEIGHT="10">
+					<TR>
+						<TD SIDES="b" BORDER="1">...</TD>
+						<TD SIDES="b" ALIGN="TEXT">Search</TD>
+					</TR>
+				</TABLE>
+			>];
+
+			struct_Elems_98a8f05303 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR>
+						<TD PORT="_b5348d5536"><IMG SRC="Control_Search_Search_Term.svg"></IMG></TD>
+						<TD PORT="_b5348d5536"><IMG SRC="Control_Search_Search_Button.svg"></IMG></TD>
+					</TR>
+				</TABLE>
+			>];
+
+			struct_Elems_18e4ee8dff [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_18e4ee8dff"><IMG SRC="Control_Search_Entity_Types.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_89e10496a5 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_89e10496a5"><IMG SRC="Control_Search_Entity_List.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+		}
+
+	}
+
+	subgraph cluster_4effe44735 {
+		label="Interview"
+		bgcolor="lightblue"
+
+		_4effe44735 [label="" fixedsize=shape width=0 height=0]
+
+		subgraph cluster_b717821a4f {
+			label=""
+			bgcolor="white"
+			ordering="in"
+
+			struct_Label_b717821a4f [
+			label=<
+				<TABLE BORDER="1" CELLBORDER="3" CELLSPACING="0" CELLPADDING="5" WIDTH="150" HEIGHT="10">
+					<TR>
+						<TD SIDES="b" ALIGN="TEXT">Interview</TD>
+					</TR>
+				</TABLE>
+			>];
+
+			struct_Elems_a970467238 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_a970467238"><IMG SRC="Interview_Interview_Title.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_11f69c46cf [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_11f69c46cf"><IMG SRC="Interview_Interview_Description.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_84dcde0913 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_84dcde0913"><IMG SRC="Interview_Interview_Private.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_885ce4aa78 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_885ce4aa78"><IMG SRC="Interview_Interview_Origination_Date.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_464ab8e520 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_464ab8e520"><IMG SRC="Interview_Interview_Origination_Date_Narrative.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_db3e196d9c [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_db3e196d9c"><IMG SRC="Interview_Interview_Add_Agent_Role.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_334b21649d [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_334b21649d"><IMG SRC="Interview_Interview_List_of_Agent_Roles.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_07122a05f5 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_07122a05f5"><IMG SRC="Interview_Interview_Linguistic_Data_Type.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_9f87899e57 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_9f87899e57"><IMG SRC="Interview_Interview_Discourse_Type.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_bb93944dcb [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_bb93944dcb"><IMG SRC="Interview_Interview_Linguistic_Subject.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_00976c0f98 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_00976c0f98"><IMG SRC="Interview_Interview_Country.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_0328006e33 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_0328006e33"><IMG SRC="Interview_Interview_Region_Villiage.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_268d103978 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_268d103978"><IMG SRC="Interview_Interview_Language_Local_Name.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_82267394c4 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_82267394c4"><IMG SRC="Interview_Interview_Language_Content_ISO639-3.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_ad16354e81 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_ad16354e81"><IMG SRC="Interview_Interview_Language_Subject_ISO639-3.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_51cb965f82 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_51cb965f82"><IMG SRC="Interview_Interview_Attached_Audio.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_0c082232ca [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_0c082232ca"><IMG SRC="Interview_Interview_Button_Attached_Audio.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_f6d33c5f88 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_f6d33c5f88"><IMG SRC="Interview_Interview_Attached_Video.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_c932977e40 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_c932977e40"><IMG SRC="Interview_Interview_Button_Attached_Video.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+		}
+
+	}
+
+	subgraph cluster_340dabd824 {
+		label="Agent Role"
+		bgcolor="lightblue"
+
+		_340dabd824 [label="" fixedsize=shape width=0 height=0]
+
+		subgraph cluster_00d217db6f {
+			label=""
+			bgcolor="white"
+			ordering="in"
+
+			struct_Label_00d217db6f [
+			label=<
+				<TABLE BORDER="1" CELLBORDER="3" CELLSPACING="0" CELLPADDING="5" WIDTH="150" HEIGHT="10">
+					<TR>
+						<TD SIDES="b" ALIGN="TEXT">Agent Role</TD>
+					</TR>
+				</TABLE>
+			>];
+
+			struct_Elems_8e361d938d [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_8e361d938d"><IMG SRC="Agent_Role_Agent_Role_First_Name.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_dd503406c0 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_dd503406c0"><IMG SRC="Agent_Role_Agent_Role_Last_Name.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+			struct_Elems_9174412e16 [
+			label=<
+				<TABLE BORDER="0" CELLSPACING="0" WIDTH="150">
+					<TR><TD PORT="_9174412e16"><IMG SRC="Agent_Role_Agent_Role_Role.svg"/></TD></TR>
+				</TABLE>
+			>];
+
+		}
+
+	}
+
+	/* Intra-tab, label-to-label links */
+	struct_Label_0b4b1a2af6 -> struct_Label_b5348d5536
+	/* Graph-constraining links */
+	_b512d97e7c -> _32d7e82082 [style=invis]
+	_32d7e82082 -> _4effe44735 [style=invis]
+	_4effe44735 -> _340dabd824 [style=invis]
+	/* User-specified links */
+	struct_Elems_2d3c307add:_2d3c307add -> struct_Label_0b4b1a2af6 [constraint=false]
+	struct_Elems_48df2fd573:_48df2fd573 -> struct_Label_b717821a4f [constraint=false]
+	struct_Elems_db3e196d9c:_db3e196d9c -> struct_Label_00d217db6f [constraint=false]
+}

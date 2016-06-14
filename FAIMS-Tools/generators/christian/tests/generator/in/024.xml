@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--@TEST: Reserved tags - autonum - Multiple fields-->
+<module>
+  <Control f="nodata">
+    <Control>
+      <autonum/>
+      <Button t="button" l="Tabgroup"/>
+    </Control>
+  </Control>
+  <Tabgroup>
+    <Tab>
+      <Dummy t="input" f="id"/> <!--f="id" is required to prevent errors-->
+
+      <Automatically_Numbered_Field_1 t="input" f="autonum"/>
+      <Automatically_Numbered_Field_2 t="input" f="autonum"/>
+      <Automatically_Numbered_Field_3 t="input" f="autonum"/>
+      <Automatically_Numbered_Field_4 t="input" f="autonum"/>
+      <Automatically_Numbered_Field_5 t="input" f="autonum"/>
+    </Tab>
+  </Tabgroup>
+</module>
